@@ -49,7 +49,7 @@ docker compose down
 ### Проверка health check
 
 ```sh
-curl -i http://localhost:8080/health
+curl http://localhost:8080/health
 ```
 
 Ожидаемый ответ: `HTTP/1.1 200 OK`, тело — `ok`.
